@@ -1,0 +1,130 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "afc2642a5d7005b39304",
+  "publicPath": "/static/",
+  "outputPath": "/Users/matthewfelton/Desktop/frontity/build/static",
+  "assetsByChunkName": {
+    "action": "action.module.js",
+    "list": "list.module.js"
+  },
+  "assets": [
+    {
+      "name": "action.module.js",
+      "size": 6430849,
+      "chunks": [
+        "action"
+      ],
+      "chunkNames": [
+        "action"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 46889,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "action": {
+      "chunks": [
+        "action"
+      ],
+      "assets": [
+        "action.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "action": {
+      "chunks": [
+        "action"
+      ],
+      "assets": [
+        "action.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "action",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1658509,
+      "names": [
+        "action"
+      ],
+      "files": [
+        "action.module.js"
+      ],
+      "hash": "08e5340f6104bbb27483",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "list"
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": "list",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 29712,
+      "names": [
+        "list"
+      ],
+      "files": [
+        "list.module.js"
+      ],
+      "hash": "4d999721b05dd73b8554",
+      "siblings": [],
+      "parents": [
+        "action"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [],
+  "generator": "loadable-components"
+}
